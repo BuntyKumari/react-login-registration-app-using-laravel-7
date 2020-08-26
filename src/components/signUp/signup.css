@@ -1,0 +1,27 @@
+.containers {
+    background-color: #A2A2A1FF;
+    padding: 20px 40px;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 7px -8px 11px -5px rgba(#195190FF);
+}
+.Tab{
+    display: flex;
+    justify-content: space-between;
+}
+.signUp, .signIn{
+    background-color: #A2A2A1FF;
+    width:50%;
+    font-size: 22px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.signIn:hover, .signUp:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.activeLink{
+    color: #fff;
+    background-color: #195190FF;
+}
